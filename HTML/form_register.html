@@ -1,0 +1,33 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Rom
+ * Date: 13/10/2016
+ * Time: 21:11
+ */
+?>
+<!DOCTYPE html>
+<html>
+<body>
+<form method="post" action="../PHP/traiteForm.php">
+        <h1>Inscription</h1>
+        <label for="Nom">Nom : </label>
+        <input id="nom" name="nom" type="text" placeholder="Votre nom" /><br /><br />
+        <label for="Prénom">Prénom : </label>
+        <input id="prénom" name="prénom" type="text" placeholder="Votre nom" /><br /><br />
+        <label for="mail">Mail : </label>
+        <input id="mail" type="email" name="mail" placeholder="Votre mail" /><br /><br />
+        <label for="telephone">Téléphone : </label>
+        <input id="telephone" type="tel" name="telephone" placeholder="Votre numéro de téléphone" /><br /><br />
+        <label for="mdp">Mot de passe : </label>
+        <input id="mdp" type="password" name="mdp" placeholder="Votre mot de passe" /><br /><br />
+        <label for="question">Question secrète : </label>
+        <input id="question" type="text" name="question" placeholder="La question secrète sera utilisée pour réinitialiser votre mot de passe" /><br /><br />
+        <label for="reponse">Réponse secrète : </label>
+        <input id="reponse" type="text" name="reponse" placeholder="La réponse à votre question secrète" /><br /><br />
+        <div class="align">
+            <input  id="validation" name="insc_submit" type="submit"  value="valider"/>
+        </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+#logo{
+    margin-left: 200px;
+    color: grey;
+    float: left;
+
+}
+
+#top{
+    text-align: right;
+    background-color: lightblue;
+    float: right;
+    width: 1980px;
+    margin-top: -10px;
+
+}
+#top a{
+    color: grey
+}
+
+#connexion{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#seConnecter{
+    border-right: solid grey;
+    border-width: 1px;
+    padding-right:6px;
+    text-align: right;
+}
+#banniere{
+    clear:both;
+    width: 65.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style:none;
+}
+
+li{
+    display: inline
+}
+a{
+    text-decoration: none;
+}
+
+nav a{
+    padding: 26px 30px 25px 30px;
+    border-width:1px;
+    margin: 50px;
+    background-color: lightblue;
+    color: grey;
+
+}
+
+.recherche{
+    display: inline-block;
+    position: absolute;
+    margin: 350px
+
+}
+#barre{
+    height: 50px;
+    width: 500px;
+    border: none
+}
+
+#subBarre{
+    height: 52px;
+    width: 80px;
+    vertical-align:middle;
+    border:none;
+    margin-left:-4px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    background-color:lightgray;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.7;
+    margin-left:auto;
+    margin-right:auto;
+    top: 600px;
+}
+#banniere img{
+    width: 65%;
+    position:absolute;
+    margin-top: 100px
+
+}
+
+#barre:focus{
+    outline: none;
+}
+#textBarre{
+    position: absolute;
+    margin: 300px 300px 300px 500px;
+    font-size: 30px
+
+}
+
+@font-face {
+    font-family: basic;
+    src: url(../FONT/basictitlefont.ttf)
+}

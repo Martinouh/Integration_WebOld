@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+
+/*
+    Partie menu
+*/
+#header{
+    top: 0;
+    height: auto;
+    width: auto;
+    max-width: 100;
+}
+#banner{
+    text-align: center;
+    height: 100px;
+    max-width: 100%;
+    width: auto;
+    color: white;
+    background-color: CadetBlue;
+}
+#top{
+    /*position: fixed;*/
+    /*float: right;*/
+    left: 0;
+    /*top: 0;*/
+    width: 100%;
+    background-color: lightblue;
+}
+.fixed{
+    top: 0;
+    position: fixed;
+}
+nav a{
+    padding: 40px;
+    padding: 15px 15px 15px 15px;
+    border-width:1px;
+    color: white;
+}
+nav a:hover{
+    padding: 15px 15px 15px 15px;
+    border-width:1px;
+    color: white;
+    background-color: CadetBlue;
+}
+nav #seConnecter {
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    padding: 15px 15px 15px 15px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display: inline
+}
+a{
+    text-decoration: none;
+}
+
+#top a{
+    color: grey
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+/*
+    Footer
+*/
+
+footer{
+    bottom: 0;
+    text-align: center;
+    height: 100px;
+    max-width: 100%;
+    width: auto;
+    color: white;
+    background-color: CadetBlue;
+
+}
+
+/*
+    Partie images défilantes et searchbar
+*/
+
+
+/*
+    Partie polices
+*/
+@font-face {
+    font-family: basic;
+    src: url(../FONT/basictitlefont.ttf)
+}

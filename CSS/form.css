@@ -1,0 +1,115 @@
+.popup_form_co{
+    border:1px solid black;
+    border-radius:15px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    width:20%;
+    background-color: rgba(128,128,128,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+.popup_form_co h1{
+    text-align: center;
+    border-bottom: solid black 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto
+
+}
+
+#selectForm a{
+    padding: 5%;
+    background-color: lightgray;
+    margin: 15%;
+    font-size: 110%;
+
+}
+#selectForm{
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+}
+#connect{
+    float:right;
+}
+.but_co{
+    padding-top:10px;
+
+}
+.align{
+    text-align: center;
+}
+
+input[type=text],input[type=email],input[type=password],input[type=tel]{
+    width: 200px;
+    border:none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    outline: none;
+    border-width: 2px;
+    background-color: rgba(128,128,128,0.2);
+}
+
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,input[type=tel]:focus{
+    background-color: white
+}
+
+label{
+    display: block;
+    width: 100px;
+    float: left;
+}
+.popup_form_co{
+    border:1px solid black;
+    border-radius:15px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    width:20%;
+    background-color: rgba(128,128,128,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+.popup_form_co h1{
+    text-align: center;
+    border-bottom: solid black 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto
+
+}
+#connect{
+    float:right;
+}
+.but_co{
+    padding-top:10px;
+
+}
+.align{
+    text-align: center;
+}
+
+input[type=text],input[type=email]{
+    width: 200px;
+    border:none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    outline: none;
+    border-width: 2px;
+    background-color: rgba(128,128,128,0.2);
+}
+
+input[type=text]:focus,input[type=email]:focus{
+    background-color: white
+}
+
+label{
+    display: block;
+    width: 100px;
+    float: left;
+}

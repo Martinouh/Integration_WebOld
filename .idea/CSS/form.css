@@ -1,0 +1,37 @@
+.popup_form_co{
+    border:1px solid black;
+    border-radius:15px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    width:20%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+
+}
+#connect{
+    float:right;
+}
+.but_co{
+    padding-top:10px;
+
+}
+.align{
+    text-align: center;
+}
+
+input[type=text],input[type=email]{
+    width: 100px;
+    border:none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    outline: none;
+    border-width: 2px;
+}
+
+label{
+    display: block;
+    width: 200px;
+    float: left;
+}
