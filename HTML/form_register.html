@@ -1,33 +1,71 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Rom
- * Date: 13/10/2016
- * Time: 21:11
- */
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/accueil_particulier.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="../JS/jquery-3.1.1.js"></script>
+    <script src="../JS/jquery-ui.js"></script>
+    <script src="../JS/Main.js"></script>
+    <script>
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 50) {
+                $('#top').addClass('fixed');
+            }
+            else {
+                $('#top').removeClass('fixed');
+            }
+        });
+    </script>
+    <title>Inscription</title>
+</head>
+
 <body>
-<form method="post" action="../PHP/traiteForm.php">
+<!-- <h1 id="logo"><i>Nom/logo</i></h1> -->
+<header id="header">
+<div id="banner">
+    Ici ce trouvera une image, pas ce fond de couleur dégueu :)
+</div>
+<div id="menu">
+    <nav>
+        <ul>
+            <li><a href="accueil_parti_FR.html" id="accueil">Accueil</a></li>
+            <li><a href="accueil_parti_FR.html" id="contact">Contact</a></li>
+        </ul>
+        <a href="form_login_parti.html" id="seConnecter">Connexion</a>
+    </nav>
+</div>
+</header>
+<div id="content">
+    <form id="formRegister" method="post" action="../PHP/traiteForm.php">
         <h1>Inscription</h1>
-        <label for="Nom">Nom : </label>
-        <input id="nom" name="nom" type="text" placeholder="Votre nom" /><br /><br />
-        <label for="Prénom">Prénom : </label>
-        <input id="prénom" name="prénom" type="text" placeholder="Votre nom" /><br /><br />
-        <label for="mail">Mail : </label>
-        <input id="mail" type="email" name="mail" placeholder="Votre mail" /><br /><br />
-        <label for="telephone">Téléphone : </label>
-        <input id="telephone" type="tel" name="telephone" placeholder="Votre numéro de téléphone" /><br /><br />
-        <label for="mdp">Mot de passe : </label>
-        <input id="mdp" type="password" name="mdp" placeholder="Votre mot de passe" /><br /><br />
-        <label for="question">Question secrète : </label>
-        <input id="question" type="text" name="question" placeholder="La question secrète sera utilisée pour réinitialiser votre mot de passe" /><br /><br />
-        <label for="reponse">Réponse secrète : </label>
-        <input id="reponse" type="text" name="reponse" placeholder="La réponse à votre question secrète" /><br /><br />
-        <div class="align">
-            <input  id="validation" name="insc_submit" type="submit"  value="valider"/>
+        <div id="persoInf">
+            <label for="nom">Nom :
+            <input id="nom" name="nom" type="text" placeholder="Votre nom"></label><br>
+            <label for="prenom">Prénom :
+            <input id="prenom" name="prenom" type="text" placeholder="Votre nom"></label><br>
+            <label for="mail">Mail :
+            <input id="mail" type="email" name="mail" placeholder="Votre mail"></label><br>
+            <label for="telephone">Téléphone :
+            <input id="telephone" type="tel" name="telephone" placeholder="Votre numéro de téléphone"></label><br>
         </div>
-</form>
+        <div id="barre"></div>
+        <div id="secretPart">
+            <label for="mdp">Mot de passe :
+            <input id="mdp" type="password" name="mdp" placeholder="Votre mot de passe"></label><br>
+            <label for="question">Question secrète :
+            <input id="question" type="text" name="question" placeholder="La question secrète sera utilisée pour réinitialiser votre mot de passe"></label><br>
+            <label for="reponse">Réponse secrète :
+            <input id="reponse" type="text" name="reponse" placeholder="La réponse à votre question secrète"></label><br>
+        </div>
+        <p>
+        <input  id="validation" name="insc_submit" type="submit"  value="valider">
+        </p>
+    </form>
+</div>
+<footer id="footer">
+
+</footer>
 </body>
 </html>
