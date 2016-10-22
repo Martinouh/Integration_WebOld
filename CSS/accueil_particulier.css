@@ -162,6 +162,10 @@ nav{
     color: CadetBlue;
 }
 
+#connect:hover{
+    background: green;
+}
+
 #new{
     color: grey;
 }
