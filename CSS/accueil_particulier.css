@@ -214,22 +214,3 @@ nav{
 #validation:hover{
     background-color: green;
 }
-
-#persoInf{
-    width: 225px;
-}
-
-#barre{
-    width: 5%;
-    height: 300px;
-    border-right: 1px solid #aaa;
-}
-
-#secretPart{
-    width: 300px;
-}
-
-#persoInf,#barre,#secretPart{
-    display: inline-block;
-    vertical-align: top;
-}
