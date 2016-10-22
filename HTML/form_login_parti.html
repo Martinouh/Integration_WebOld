@@ -1,46 +1,43 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Rom
- * Date: 13/10/2016
- * Time: 21:10
- */
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../CSS/form.css">
     <link rel="stylesheet" type="text/css" href="../CSS/accueil_particulier.css">
     <script src="../JS/jquery-3.1.1.js"></script>
     <script src="../JS/Main.js"></script>
     <title>log in</title>
 </head>
 <body>
-
-<div id="selectForm">
-    <a href="form_register.html" id="newAccount">Je suis nouveau</a>
-    <a href="form_login_parti.html" id="connnexion">Je possède déjà un compte</a>
+<header id="header">
+    <div id="banner">
+        <!-- <p> Comptage de personnes dans une salle d'attente </p> -->
+    </div>
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="accueil_parti_FR.html" id="accueil">Accueil</a></li>
+                <li><a href="accueil_parti_FR.html" id="contact">Contact</a></li>
+            </ul>
+            <a href="form_login_parti.html" id="seConnecter">Connexion</a>
+        </nav>
+    </div>
+</header>
+<div id="content">
+    <form id="formLogin" method="post" action="../PHP/traiteForm.php">
+            <h1>Connexion</h1>
+            <input id="email" type="email" name="email"  placeholder="Votre adresse mail"><br>
+            <input id="mdp" type="password" name="mdp"  placeholder="Votre mot de passe"><br>
+            <input id="connect" name="login_submit" type="submit" value="Connexion">
+            <p id="mdpLost">
+                <a href="http://localhost/projet_int/HTML/form_mdp_perdu.html" id="mdpLostxt"> J'ai oublié mon mot de passe </a>
+            </p>
+            <p id="new">
+                Nouveau sur Groupe7? <a href="form_register.html" id="subscribe">S'inscrire</a>
+            </p>
+    </form>
 </div>
-<div id="form" class="popup_form_co">
-<form method="post" action="../PHP/traiteForm.php">
-        <h1>Connexion</h1>
-        <label for="email">Votre email : </label>
-        <input id="email" type="email" name="email"  placeholder="Votre adresse mail" /><br /><br />
-        <label for="mdp">Mot de passe : </label>
-        <input id="mdp" type="password" name="mdp"  placeholder="Votre mot de passe" />
-        <div class="but_co">
-            <a href="http://localhost/projet_int/HTML/form_mdp_perdu.html">
-                <input id="mdp_perdu"  type="button" value="passe perdu"/>
-            </a>
-            <input id="connect" name="login_submit" type="submit" value="Connexion"/>
-        </div>
-</form>
-</div>
+<footer id="footer">
 
-<footer>
-    <p>contact: XXXXX@XXXXX.be</p>
-    <p>adresse: avenue du ciseaux</p>
 </footer>
 </body>
 </html>
