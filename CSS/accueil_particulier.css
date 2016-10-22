@@ -6,6 +6,7 @@ body{
     Partie menu
 */
 #header{
+    left: 0;
     top: 0;
     height: auto;
     width: auto;
@@ -19,7 +20,7 @@ body{
     color: white;
     background-color: CadetBlue;
 }
-#top{
+#menu{
     /*position: fixed;*/
     /*float: right;*/
     left: 0;
@@ -78,12 +79,12 @@ nav{
     Footer
 */
 
-footer{
+#footer{
     bottom: 0;
-    text-align: center;
+    position: fixed;
     height: 100px;
     max-width: 100%;
-    width: auto;
+    width: 100%;
     color: white;
     background-color: CadetBlue;
 
