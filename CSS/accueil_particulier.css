@@ -184,6 +184,7 @@ nav{
     margin: 0 auto;
 }
 
+
 #nom,#prenom,#mail,#telephone,#mdp,#question,#reponse{
     border: 2px solid #aaa;
     border-radius: 15px;
