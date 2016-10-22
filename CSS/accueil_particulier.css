@@ -83,11 +83,23 @@ nav{
 /*
     Content
 */
-
+#welcome{
+    text-align: center;
+    color: #00bfff;
+}
 #content{
     width: auto;
     max-width: 100%;
 }
+
+#product,#gear,#joinUs{
+    width: 425px;
+    display: inline-block;
+    text-align: center;
+    color: #808080;
+}
+
+
 
 /*
     Footer

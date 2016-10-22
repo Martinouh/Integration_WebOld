@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/accueil_particulier.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="../JS/jquery-3.1.1.js"></script>
+    <script src="../JS/jquery-ui.js"></script>
+    <script src="../JS/Main.js"></script>
+    <script>
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 50) {
+                $('#menu').addClass('fixed');
+            }
+            else {
+                $('#menu').removeClass('fixed');
+            }
+        });
+    </script>
+    <title>Accueil</title>
+</head>
+
+<body>
+<!-- <h1 id="logo"><i>Nom/logo</i></h1> -->
+<header id="header">
+<div id="banner">
+    Ici ce trouvera une image, pas ce fond de couleur dégueu :)
+</div>
+<div id="menu">
+    <nav>
+        <ul>
+            <li><a href="accueil_parti_FR.html" id="accueil">Accueil</a></li>
+            <li><a href="accueil_parti_FR.html" id="contact">Contact</a></li>
+            <li><a href="recherche.html" id="recherche">Recherche</a></li>
+        </ul>
+        <a href="form_login_parti.html" id="seConnecter">Connexion</a>
+    </nav>
+</div>
+</header>
+<div id="content">
+
+    <form class="recherche" action="../PHP/traiteForm.php" method="post">
+        <input type="text" id="searchbar" name="searchbar" placeholder="Je recherche...">
+        <input type="submit" name="search_submit" id ="subBarre">
+    </form>
+
+</div>
+<footer id="footer">
+
+</footer>
+</body>
+</html>
