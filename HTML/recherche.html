@@ -41,8 +41,9 @@
 <div id="content">
 
     <form class="recherche" action="../PHP/traiteForm.php" method="post">
-        <input type="text" id="searchbar" name="searchbar" placeholder="Je recherche...">
+        <input type="text" id="searchbar" name="searchbar" placeholder="Je recherche..." onkeyup="showHint(this.value)">
         <input type="submit" name="search_submit" id ="subBarre">
+        <span id="suggestions"></span>
     </form>
 
 </div>
