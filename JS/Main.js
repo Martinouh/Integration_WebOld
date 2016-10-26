@@ -41,7 +41,7 @@ function testeJSON(result){
 }
 
 function showHint(hint){
-    $.get("PHP/getHint.php?q="+hint,function(data){
+    $.get("../PHP/getHint.php?q="+hint,function(data){
         $('#suggestions').html(data);
     });
 }

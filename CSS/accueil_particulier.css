@@ -6,32 +6,32 @@ body{
     header
 */
 #header{
-    left: 0;
+    /*left: 0;
     top: 0;
     height: auto;
     width: auto;
-    max-width: 100;
+    max-width: 100;*/
 }
 /*
     header-->banner
 */
 #banner{
-    text-align: center;
+    /*text-align: center;
     height: 100px;
     max-width: 100%;
     width: auto;
     color: white;
-    background-color: CadetBlue;
+    background-color: CadetBlue;*/
 }
 /*
     header-->banner
     header-->menu
 */
 #menu{
-    /*position: fixed;*/
+    position: relative;
     /*float: right;*/
     left: 0;
-    /*top: 0;*/
+    top: 0;
     width: 100%;
     background-color: lightblue;
 }
@@ -88,6 +88,7 @@ nav{
     color: #00bfff;
 }
 #content{
+    position: relative;
     width: auto;
     max-width: 100%;
 }
