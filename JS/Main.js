@@ -1,6 +1,3 @@
-/**
- * Created by Rom on 10/10/2016.
- */
 $('document').ready(function(){
     setInterval('gallerie()',8000);
     gereClic();
@@ -43,6 +40,11 @@ function testeJSON(result){
     return json;
 }
 
+function showHint(hint){
+    $.get("PHP/getHint.php?q="+hint,function(data){
+        $('#suggestions').html(data);
+    });
+}
 
 function traiteRetour(objetJS){
     $.map(objetJS,function(val,i) {
